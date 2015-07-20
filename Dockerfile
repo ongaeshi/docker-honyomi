@@ -9,7 +9,7 @@ RUN echo "deb http://packages.groonga.org/debian/ jessie main" >> /etc/apt/sourc
   && apt-get install -y libgroonga-dev
 
 # Poppler
-RUN apt-get install -y poppler-utils
+RUN apt-get install -y poppler-utils fonts-ipaexfont-gothic
 
 # Honyomi
 RUN gem install honyomi --no-ri --no-rdoc
