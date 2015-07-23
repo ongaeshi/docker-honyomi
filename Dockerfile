@@ -12,7 +12,7 @@ RUN echo "deb http://packages.groonga.org/debian/ jessie main" >> /etc/apt/sourc
 RUN apt-get install -y poppler-utils fonts-ipaexfont-gothic
 
 # Honyomi
-RUN gem install honyomi -v 1.2 --no-ri --no-rdoc
+RUN gem install honyomi -v 1.3 --no-ri --no-rdoc
 RUN honyomi init
 
 EXPOSE 9295
