@@ -1,4 +1,4 @@
-FROM groonga:rroonga
+FROM groonga/rroonga
 
 # Poppler
 RUN apt-get install -y poppler-utils fonts-ipaexfont-gothic
